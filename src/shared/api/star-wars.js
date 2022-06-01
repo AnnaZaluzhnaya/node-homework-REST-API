@@ -23,7 +23,4 @@ export const getFilmById = async (id) => {
     return data;
 };
 
-export default {
-    getPeople,
-    getPeopleById
-}
+
