@@ -2,7 +2,7 @@ import axios from "axios";
 import {useState, useEffect} from "react";
 import {useParams} from "react-router-dom";
 
-import { getPeopleById, getFilmById } from "../../shared/api/star-wars";
+import { getPeopleById } from "../../shared/api/star-wars";
 
 const SinglePeopleFilmsPage = () =>{
     const [films, setFilms] = useState({
